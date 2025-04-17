@@ -1,6 +1,6 @@
 # 🩺 Módulo de Novidades - App de Saúde
 
-Este projeto é um módulo de **coleta e exibição de conteúdos sobre saúde**, desenvolvido como parte de um aplicativo mobile voltado ao bem-estar dos usuários. Ele utiliza **web scraping** para buscar informações em sites confiáveis e exibe essas novidades de forma categorizada e cronológica dentro do aplicativo.
+Este projeto é um módulo de **coleta e exibição de conteúdos sobre saúde**. Ele utiliza **web scraping** para buscar informações em sites confiáveis e exibe essas novidades de forma categorizada e cronológica dentro do aplicativo.
 
 ---
 
