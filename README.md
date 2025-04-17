@@ -29,6 +29,7 @@ Criar uma **aba de novidades** que:
 
 ## 📦 Estrutura do Projeto
 
+```
 app-saude-novidades/
 │
 ├── backend/
@@ -44,7 +45,7 @@ app-saude-novidades/
 │
 ├── README.md                # Documentação do projeto
 └── .gitignore               # Arquivos a serem ignorados pelo Git
-
+```
 
 ---
 
@@ -64,35 +65,47 @@ app-saude-novidades/
 ```bash
 git clone https://github.com/seu-usuario/app-saude-novidades.git
 cd app-saude-novidades
+```
 
 ### 2. Instale as dependências do Python
 ```bash
 cd backend
 pip install -r requirements.txt
+```
 
 ### 3. Configure o banco MySQL
-Crie o banco saude_app
-
-Execute o script estrutura.sql na pasta /database
+- Crie o banco `saude_app`
+- Execute o script `estrutura.sql` na pasta `/database`
 
 ### 4. Execute o scraper (opcional para testes)
 ```bash
 cd scraper
 python scraper.py
+```
 
 ### 5. Rode a API Flask
 ```bash
 cd api
 python api.py
+```
 
 ### 6. Rode o app Flutter
+```bash
 cd mobile/flutter_novidades
 flutter pub get
 flutter run
+```
+
+---
 
 ## 📁 API - Endpoints disponíveis
-Método | Rota | Descrição
-GET | /novidades | Retorna todas as novidades da base
 
+| Método | Rota | Descrição |
+|--------|------|-----------|
+| GET | `/novidades` | Retorna todas as novidades da base |
 
+---
 
+## 📄 Licença
+
+Este projeto é acadêmico e está sob a licença MIT.
