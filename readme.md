@@ -1,4 +1,4 @@
-# 🩺 App Saúde - Módulo de Novidades
+# 🩺 BRChain - Módulo de Novidades
 
 Este projeto é um módulo de um aplicativo de saúde focado em exibir **notícias, dicas e artigos** atualizados e categorizados. Ele utiliza **Web Scraping com Python**, uma **API Flask**, e um **aplicativo mobile com Flutter** para entregar uma experiência rica e informativa ao usuário.
 
